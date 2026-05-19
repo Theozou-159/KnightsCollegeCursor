@@ -1,0 +1,311 @@
+{
+  "pack": "Theo Cursor Image2",
+  "installer": {
+    "primary": "Install-Theo-Cursors.bat",
+    "method": "Current-user install into %LOCALAPPDATA%, registry scheme apply",
+    "fallback": "TheoCursorImage2.inf"
+  },
+  "windows_role_map": {
+    "Arrow": "pointer.ani",
+    "Help": "help.ani",
+    "AppStarting": "work.ani",
+    "Wait": "busy.ani",
+    "Crosshair": "cross.ani",
+    "IBeam": "text.ani",
+    "No": "unavailable.ani",
+    "SizeNS": "vert.ani",
+    "SizeWE": "horz.ani",
+    "SizeNWSE": "dgn1.ani",
+    "SizeNESW": "dgn2.ani",
+    "SizeAll": "move.ani",
+    "Hand": "link.ani"
+  },
+  "roles": [
+    {
+      "role": "pointer",
+      "ani": "cursors/pointer.ani",
+      "cur": "cursors/pointer.cur",
+      "frames": 6,
+      "hotspot": [
+        39,
+        39
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 39,
+          "hotspot_y": 39,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "help",
+      "ani": "cursors/help.ani",
+      "cur": "cursors/help.cur",
+      "frames": 6,
+      "hotspot": [
+        39,
+        39
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 39,
+          "hotspot_y": 39,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "work",
+      "ani": "cursors/work.ani",
+      "cur": "cursors/work.cur",
+      "frames": 9,
+      "hotspot": [
+        39,
+        39
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 9,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 39,
+          "hotspot_y": 39,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "busy",
+      "ani": "cursors/busy.ani",
+      "cur": "cursors/busy.cur",
+      "frames": 8,
+      "hotspot": [
+        52,
+        52
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 8,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 52,
+          "hotspot_y": 52,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "text",
+      "ani": "cursors/text.ani",
+      "cur": "cursors/text.cur",
+      "frames": 7,
+      "hotspot": [
+        20,
+        53
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 7,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 20,
+          "hotspot_y": 53,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "ani": "cursors/link.ani",
+      "cur": "cursors/link.cur",
+      "frames": 6,
+      "hotspot": [
+        43,
+        36
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 43,
+          "hotspot_y": 36,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "unavailable",
+      "ani": "cursors/unavailable.ani",
+      "cur": "cursors/unavailable.cur",
+      "frames": 7,
+      "hotspot": [
+        60,
+        51
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 7,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 60,
+          "hotspot_y": 51,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "move",
+      "ani": "cursors/move.ani",
+      "cur": "cursors/move.cur",
+      "frames": 6,
+      "hotspot": [
+        52,
+        52
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 52,
+          "hotspot_y": 52,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "cross",
+      "ani": "cursors/cross.ani",
+      "cur": "cursors/cross.cur",
+      "frames": 6,
+      "hotspot": [
+        128,
+        128
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 128,
+          "hotspot_y": 128,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "vert",
+      "ani": "cursors/vert.ani",
+      "cur": "cursors/vert.cur",
+      "frames": 6,
+      "hotspot": [
+        128,
+        128
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 128,
+          "hotspot_y": 128,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "horz",
+      "ani": "cursors/horz.ani",
+      "cur": "cursors/horz.cur",
+      "frames": 6,
+      "hotspot": [
+        128,
+        128
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 128,
+          "hotspot_y": 128,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "dgn1",
+      "ani": "cursors/dgn1.ani",
+      "cur": "cursors/dgn1.cur",
+      "frames": 6,
+      "hotspot": [
+        128,
+        128
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 128,
+          "hotspot_y": 128,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    },
+    {
+      "role": "dgn2",
+      "ani": "cursors/dgn2.ani",
+      "cur": "cursors/dgn2.cur",
+      "frames": 6,
+      "hotspot": [
+        128,
+        128
+      ],
+      "jiffies": 5,
+      "ani_frame_count": 6,
+      "cur_entries": [
+        {
+          "width": 256,
+          "height": 256,
+          "hotspot_x": 128,
+          "hotspot_y": 128,
+          "bytes": 270376,
+          "offset": 22
+        }
+      ]
+    }
+  ]
+}
