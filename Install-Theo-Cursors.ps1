@@ -1,9 +1,9 @@
 $ErrorActionPreference = "Stop"
 
-$SchemeName = "Theo Cursor Image2"
+$SchemeName = "Theo Cursor"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $SourceDir = Join-Path $ScriptDir "cursors"
-$TargetDir = Join-Path $env:LOCALAPPDATA "TheoCursorImage2\Cursors"
+$TargetDir = Join-Path $env:LOCALAPPDATA "TheoCursor\Cursors"
 
 if (!(Test-Path $SourceDir)) {
   throw "Cannot find cursor source folder: $SourceDir"
@@ -65,6 +65,6 @@ Add-Type -TypeDefinition $NativeSource -ErrorAction SilentlyContinue
 [TheoCursorNative]::SystemParametersInfo(0x0057, 0, [IntPtr]::Zero, 0x03) | Out-Null
 
 Write-Host ""
-Write-Host "Theo Cursor Image2 has been installed and applied." -ForegroundColor Green
+Write-Host "Theo Cursor has been installed and applied." -ForegroundColor Green
 Write-Host "Installed to: $TargetDir"
 Write-Host ""

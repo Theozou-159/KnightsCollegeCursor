@@ -1,0 +1,17 @@
+[Theme]
+DisplayName=Theo Cursor
+
+[Control Panel\Cursors]
+Arrow=%LocalAppData%\TheoCursor\Cursors\pointer.ani
+Help=%LocalAppData%\TheoCursor\Cursors\help.ani
+AppStarting=%LocalAppData%\TheoCursor\Cursors\work.ani
+Wait=%LocalAppData%\TheoCursor\Cursors\busy.ani
+Crosshair=%LocalAppData%\TheoCursor\Cursors\cross.ani
+IBeam=%LocalAppData%\TheoCursor\Cursors\text.ani
+No=%LocalAppData%\TheoCursor\Cursors\unavailable.ani
+SizeNS=%LocalAppData%\TheoCursor\Cursors\vert.ani
+SizeWE=%LocalAppData%\TheoCursor\Cursors\horz.ani
+SizeNWSE=%LocalAppData%\TheoCursor\Cursors\dgn1.ani
+SizeNESW=%LocalAppData%\TheoCursor\Cursors\dgn2.ani
+SizeAll=%LocalAppData%\TheoCursor\Cursors\move.ani
+Hand=%LocalAppData%\TheoCursor\Cursors\link.ani
