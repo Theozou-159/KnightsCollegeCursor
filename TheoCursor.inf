@@ -6,7 +6,7 @@ CopyFiles=TheoCursors
 AddReg=TheoScheme
 
 [DestinationDirs]
-TheoCursors=10,"Cursors\TheoCursorImage2"
+TheoCursors=10,"Cursors\TheoCursor"
 
 [TheoCursors]
 pointer.ani
@@ -37,11 +37,11 @@ dgn2.ani
 dgn2.cur
 
 [TheoScheme]
-HKCU,"Control Panel\Cursors\Schemes","Theo Cursor Image2",0x00000000,"%10%\Cursors\TheoCursorImage2\pointer.ani,%10%\Cursors\TheoCursorImage2\help.ani,%10%\Cursors\TheoCursorImage2\work.ani,%10%\Cursors\TheoCursorImage2\busy.ani,%10%\Cursors\TheoCursorImage2\cross.ani,%10%\Cursors\TheoCursorImage2\text.ani,%10%\Cursors\TheoCursorImage2\pointer.cur,%10%\Cursors\TheoCursorImage2\unavailable.ani,%10%\Cursors\TheoCursorImage2\vert.ani,%10%\Cursors\TheoCursorImage2\horz.ani,%10%\Cursors\TheoCursorImage2\dgn1.ani,%10%\Cursors\TheoCursorImage2\dgn2.ani,%10%\Cursors\TheoCursorImage2\move.ani,%10%\Cursors\TheoCursorImage2\pointer.cur,%10%\Cursors\TheoCursorImage2\link.ani"
+HKCU,"Control Panel\Cursors\Schemes","Theo Cursor",0x00000000,"%10%\Cursors\TheoCursor\pointer.ani,%10%\Cursors\TheoCursor\help.ani,%10%\Cursors\TheoCursor\work.ani,%10%\Cursors\TheoCursor\busy.ani,%10%\Cursors\TheoCursor\cross.ani,%10%\Cursors\TheoCursor\text.ani,%10%\Cursors\TheoCursor\pointer.cur,%10%\Cursors\TheoCursor\unavailable.ani,%10%\Cursors\TheoCursor\vert.ani,%10%\Cursors\TheoCursor\horz.ani,%10%\Cursors\TheoCursor\dgn1.ani,%10%\Cursors\TheoCursor\dgn2.ani,%10%\Cursors\TheoCursor\move.ani,%10%\Cursors\TheoCursor\pointer.cur,%10%\Cursors\TheoCursor\link.ani"
 HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
 
 [SourceDisksNames]
-1="Theo Cursor Image2","",1
+1="Theo Cursor","",1
 
 [SourceDisksFiles]
 pointer.ani=1,cursors

@@ -1,9 +1,9 @@
 {
-  "pack": "Theo Cursor Image2",
+  "pack": "Theo Cursor",
   "installer": {
     "primary": "Install-Theo-Cursors.bat",
     "method": "Current-user install into %LOCALAPPDATA%, registry scheme apply",
-    "fallback": "TheoCursorImage2.inf"
+    "fallback": "TheoCursor.inf"
   },
   "windows_role_map": {
     "Arrow": "pointer.ani",

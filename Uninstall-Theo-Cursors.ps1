@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
-$SchemeName = "Theo Cursor Image2"
+$SchemeName = "Theo Cursor"
 $SchemeReg = "HKCU:\Control Panel\Cursors\Schemes"
-$TargetRoot = Join-Path $env:LOCALAPPDATA "TheoCursorImage2"
+$TargetRoot = Join-Path $env:LOCALAPPDATA "TheoCursor"
 Remove-ItemProperty -Path $SchemeReg -Name $SchemeName -ErrorAction SilentlyContinue
 Write-Host "Removed the saved Theo cursor scheme entry." -ForegroundColor Yellow
 Write-Host "Cursor files are kept at $TargetRoot in case the scheme is still active."

@@ -1,6 +1,6 @@
 # MIT License For Installer Scripts
 
-Copyright (c) 2026 Theo Cursor Image2 contributors
+Copyright (c) 2026 Theo Cursor contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 the installer and uninstall scripts in this repository, to deal in the scripts
