@@ -9,6 +9,8 @@
 - Added one-click install and uninstall scripts for the Diderich cursor scheme.
 - Updated the Diderich installer to register the scheme without overwriting the
   current cursor scheme by default.
+- Updated the Diderich installer to back up and preserve existing custom cursor
+  schemes before adding Diderich, with a helper to restore the latest backup.
 - Added Diderich preview GIFs, a final contact sheet, 32px review sheet, hotspot
   review sheet, and dark background check.
 - Updated the project landing page to Knights College Cursor while keeping the
