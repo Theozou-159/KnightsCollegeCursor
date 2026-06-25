@@ -1,3 +1,8 @@
+[CmdletBinding()]
+param(
+  [switch]$Apply
+)
+
 $ErrorActionPreference = "Stop"
 
 $SchemeName = "Diderich Cursor"
@@ -40,10 +45,6 @@ $Map = [ordered]@{
   Person      = C "pointer.cur"
 }
 
-foreach ($entry in $Map.GetEnumerator()) {
-  Set-ItemProperty -Path $CursorReg -Name $entry.Key -Value $entry.Value
-}
-
 $SchemeOrder = @(
   "Arrow", "Help", "AppStarting", "Wait", "Crosshair", "IBeam", "NWPen",
   "No", "SizeNS", "SizeWE", "SizeNWSE", "SizeNESW", "SizeAll", "UpArrow",
@@ -51,9 +52,23 @@ $SchemeOrder = @(
 )
 $SchemeValue = ($SchemeOrder | ForEach-Object { $Map[$_] }) -join ","
 New-ItemProperty -Path $SchemeReg -Name $SchemeName -Value $SchemeValue -PropertyType String -Force | Out-Null
-(Get-Item $CursorReg).SetValue("", $SchemeName)
 
-$NativeSource = @"
+if ($Apply) {
+  foreach ($entry in $Map.GetEnumerator()) {
+    Set-ItemProperty -Path $CursorReg -Name $entry.Key -Value $entry.Value
+  }
+
+  try {
+    $CursorKey = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey("Control Panel\Cursors", $true)
+    if ($null -ne $CursorKey) {
+      $CursorKey.SetValue("", $SchemeName, [Microsoft.Win32.RegistryValueKind]::String)
+      $CursorKey.Close()
+    }
+  } catch {
+    Write-Warning "The Diderich cursor files were applied, but Windows did not allow the scheme name to be set automatically."
+  }
+
+  $NativeSource = @"
 using System;
 using System.Runtime.InteropServices;
 public static class DiderichCursorNative {
@@ -61,10 +76,22 @@ public static class DiderichCursorNative {
   public static extern bool SystemParametersInfo(uint uiAction, uint uiParam, IntPtr pvParam, uint fWinIni);
 }
 "@
-Add-Type -TypeDefinition $NativeSource -ErrorAction SilentlyContinue
-[DiderichCursorNative]::SystemParametersInfo(0x0057, 0, [IntPtr]::Zero, 0x03) | Out-Null
+  Add-Type -TypeDefinition $NativeSource -ErrorAction SilentlyContinue
+  [DiderichCursorNative]::SystemParametersInfo(0x0057, 0, [IntPtr]::Zero, 0x03) | Out-Null
+}
 
 Write-Host ""
-Write-Host "Diderich Cursor has been installed and applied." -ForegroundColor Green
+if ($Apply) {
+  Write-Host "Diderich Cursor has been installed and applied." -ForegroundColor Green
+} else {
+  Write-Host "Diderich Cursor has been installed." -ForegroundColor Green
+  Write-Host "Your current cursor scheme was not changed." -ForegroundColor Yellow
+  Write-Host "To switch later: Mouse Properties -> Pointers -> Scheme -> Diderich Cursor."
+  try {
+    Start-Process control.exe "main.cpl,,1"
+  } catch {
+    Write-Host "Open Mouse Properties manually if the Pointers tab did not open."
+  }
+}
 Write-Host "Installed to: $TargetDir"
 Write-Host ""

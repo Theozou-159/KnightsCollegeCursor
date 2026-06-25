@@ -18,8 +18,13 @@ The installer copies cursor files to:
 %LOCALAPPDATA%\DiderichCursor\Cursors
 ```
 
-Then it applies the `Diderich Cursor` pointer scheme for the current Windows
-user.
+Then it registers the `Diderich Cursor` pointer scheme for the current Windows
+user without changing your current cursor. This keeps an existing Theo scheme
+intact.
+
+To switch to Diderich, open **Mouse Properties** -> **Pointers**, choose
+`Diderich Cursor` from **Scheme**, then click **Apply**. If you want to switch
+immediately, run `Apply-Diderich-Cursors.bat`.
 
 ## Uninstall
 

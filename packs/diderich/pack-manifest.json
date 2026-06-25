@@ -4,7 +4,8 @@
   "version": "v1.0.0",
   "installer": {
     "primary": "Install-Diderich-Cursors.bat",
-    "method": "Current-user install into %LOCALAPPDATA%, registry scheme apply",
+    "apply": "Apply-Diderich-Cursors.bat",
+    "method": "Current-user install into %LOCALAPPDATA%, register scheme without changing current cursor by default",
     "fallback": "DiderichCursor.inf"
   },
   "windows_role_map": {
