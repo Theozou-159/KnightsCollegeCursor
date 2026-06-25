@@ -9,7 +9,7 @@
 - Added one-click install and uninstall scripts for the Diderich cursor scheme.
 - Added Diderich preview GIFs, a final contact sheet, 32px review sheet, hotspot
   review sheet, and dark background check.
-- Updated the project landing page to Night's College Cursor while keeping the
+- Updated the project landing page to Knights College Cursor while keeping the
   original Theo cursor pack available.
 
 ## v1.0.0 - Theo Cursor
