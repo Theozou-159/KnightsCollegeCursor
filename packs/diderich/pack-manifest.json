@@ -1,0 +1,650 @@
+{
+  "pack": "Diderich Cursor",
+  "collection": "Night's College Cursor",
+  "version": "v1.0.0",
+  "installer": {
+    "primary": "Install-Diderich-Cursors.bat",
+    "method": "Current-user install into %LOCALAPPDATA%, registry scheme apply",
+    "fallback": "DiderichCursor.inf"
+  },
+  "windows_role_map": {
+    "Arrow": "pointer.ani",
+    "Help": "help.ani",
+    "AppStarting": "work.ani",
+    "Wait": "busy.ani",
+    "Crosshair": "cross.ani",
+    "IBeam": "text.ani",
+    "No": "unavailable.ani",
+    "SizeNS": "vert.ani",
+    "SizeWE": "horz.ani",
+    "SizeNWSE": "dgn1.ani",
+    "SizeNESW": "dgn2.ani",
+    "SizeAll": "move.ani",
+    "Hand": "link.ani"
+  },
+  "roles": [
+    {
+      "role": "pointer",
+      "windows_name": "Normal Select",
+      "ani": "cursors/pointer.ani",
+      "cur": "cursors/pointer.cur",
+      "preview": "preview/pointer.gif",
+      "hotspot": [
+        39,
+        39
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          39,
+          39
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 1622536,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "help",
+      "windows_name": "Help Select",
+      "ani": "cursors/help.ani",
+      "cur": "cursors/help.cur",
+      "preview": "preview/help.gif",
+      "hotspot": [
+        39,
+        39
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          39,
+          39
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 1622536,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "work",
+      "windows_name": "Working in Background",
+      "ani": "cursors/work.ani",
+      "cur": "cursors/work.cur",
+      "preview": "preview/work.gif",
+      "hotspot": [
+        39,
+        39
+      ],
+      "ani_header": {
+        "frame_count": 8,
+        "steps": 8,
+        "jiffies": 5,
+        "embedded_cursor_count": 8,
+        "embedded_hotspots": [
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          39,
+          39
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 8,
+      "ani_bytes": 2163356,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "busy",
+      "windows_name": "Busy",
+      "ani": "cursors/busy.ani",
+      "cur": "cursors/busy.cur",
+      "preview": "preview/busy.gif",
+      "hotspot": [
+        52,
+        52
+      ],
+      "ani_header": {
+        "frame_count": 8,
+        "steps": 8,
+        "jiffies": 5,
+        "embedded_cursor_count": 8,
+        "embedded_hotspots": [
+          [
+            52,
+            52
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          52,
+          52
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 8,
+      "ani_bytes": 2163356,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "text",
+      "windows_name": "Text Select",
+      "ani": "cursors/text.ani",
+      "cur": "cursors/text.cur",
+      "preview": "preview/text.gif",
+      "hotspot": [
+        20,
+        53
+      ],
+      "ani_header": {
+        "frame_count": 7,
+        "steps": 7,
+        "jiffies": 5,
+        "embedded_cursor_count": 7,
+        "embedded_hotspots": [
+          [
+            20,
+            53
+          ],
+          [
+            20,
+            53
+          ],
+          [
+            20,
+            53
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          20,
+          53
+        ],
+        "bytes": 62315,
+        "offset": 22
+      },
+      "preview_frame_count": 7,
+      "ani_bytes": 427438,
+      "cur_bytes": 62337
+    },
+    {
+      "role": "link",
+      "windows_name": "Link Select",
+      "ani": "cursors/link.ani",
+      "cur": "cursors/link.cur",
+      "preview": "preview/link.gif",
+      "hotspot": [
+        43,
+        36
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            43,
+            36
+          ],
+          [
+            43,
+            36
+          ],
+          [
+            43,
+            36
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          43,
+          36
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 1622536,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "unavailable",
+      "windows_name": "Unavailable",
+      "ani": "cursors/unavailable.ani",
+      "cur": "cursors/unavailable.cur",
+      "preview": "preview/unavailable.gif",
+      "hotspot": [
+        60,
+        51
+      ],
+      "ani_header": {
+        "frame_count": 7,
+        "steps": 7,
+        "jiffies": 5,
+        "embedded_cursor_count": 7,
+        "embedded_hotspots": [
+          [
+            60,
+            51
+          ],
+          [
+            60,
+            51
+          ],
+          [
+            60,
+            51
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          60,
+          51
+        ],
+        "bytes": 270376,
+        "offset": 22
+      },
+      "preview_frame_count": 7,
+      "ani_bytes": 1892946,
+      "cur_bytes": 270398
+    },
+    {
+      "role": "move",
+      "windows_name": "Move",
+      "ani": "cursors/move.ani",
+      "cur": "cursors/move.cur",
+      "preview": "preview/move.gif",
+      "hotspot": [
+        52,
+        52
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            52,
+            52
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          52,
+          52
+        ],
+        "bytes": 65009,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 385588,
+      "cur_bytes": 65031
+    },
+    {
+      "role": "cross",
+      "windows_name": "Precision Select",
+      "ani": "cursors/cross.ani",
+      "cur": "cursors/cross.cur",
+      "preview": "preview/cross.gif",
+      "hotspot": [
+        128,
+        128
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          128,
+          128
+        ],
+        "bytes": 62880,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 373550,
+      "cur_bytes": 62902
+    },
+    {
+      "role": "vert",
+      "windows_name": "Vertical Resize",
+      "ani": "cursors/vert.ani",
+      "cur": "cursors/vert.cur",
+      "preview": "preview/vert.gif",
+      "hotspot": [
+        128,
+        128
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          128,
+          128
+        ],
+        "bytes": 51314,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 288350,
+      "cur_bytes": 51336
+    },
+    {
+      "role": "horz",
+      "windows_name": "Horizontal Resize",
+      "ani": "cursors/horz.ani",
+      "cur": "cursors/horz.cur",
+      "preview": "preview/horz.gif",
+      "hotspot": [
+        128,
+        128
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          128,
+          128
+        ],
+        "bytes": 65463,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 387286,
+      "cur_bytes": 65485
+    },
+    {
+      "role": "dgn1",
+      "windows_name": "Diagonal Resize NW-SE",
+      "ani": "cursors/dgn1.ani",
+      "cur": "cursors/dgn1.cur",
+      "preview": "preview/dgn1.gif",
+      "hotspot": [
+        128,
+        128
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          128,
+          128
+        ],
+        "bytes": 66658,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 397704,
+      "cur_bytes": 66680
+    },
+    {
+      "role": "dgn2",
+      "windows_name": "Diagonal Resize NE-SW",
+      "ani": "cursors/dgn2.ani",
+      "cur": "cursors/dgn2.cur",
+      "preview": "preview/dgn2.gif",
+      "hotspot": [
+        128,
+        128
+      ],
+      "ani_header": {
+        "frame_count": 6,
+        "steps": 6,
+        "jiffies": 5,
+        "embedded_cursor_count": 6,
+        "embedded_hotspots": [
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            "..."
+          ]
+        ]
+      },
+      "cur_entry": {
+        "width": 256,
+        "height": 256,
+        "hotspot": [
+          128,
+          128
+        ],
+        "bytes": 66889,
+        "offset": 22
+      },
+      "preview_frame_count": 6,
+      "ani_bytes": 398660,
+      "cur_bytes": 66911
+    }
+  ],
+  "previews": {
+    "thumbnail": "preview/diderich-help-thumbnail.gif",
+    "contact_sheet": "preview/diderich-cursor-final-contact-sheet.png",
+    "size_review": "preview/diderich-cursor-final-32px-review.png",
+    "hotspot_review": "preview/diderich-cursor-final-hotspot-review.png",
+    "dark_mode_check": "preview/diderich-cursor-final-dark-mode-check.png"
+  },
+  "notes": [
+    "Alternate Select and Handwriting aliases are intentionally not included in this public v1.0.0 pack preview set.",
+    "Text, Move, and Precision Select use the repaired white-foreground versions.",
+    "Horizontal Resize uses the final upper-left triangle version."
+  ]
+}
