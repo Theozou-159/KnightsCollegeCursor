@@ -20,11 +20,20 @@ The installer copies cursor files to:
 
 Then it registers the `Diderich Cursor` pointer scheme for the current Windows
 user without changing your current cursor. This keeps an existing Theo scheme
-intact.
+intact. Before it touches the Windows cursor scheme list, it also saves a backup
+to:
+
+```text
+%LOCALAPPDATA%\KnightsCollegeCursor\CursorSchemeBackups
+```
 
 To switch to Diderich, open **Mouse Properties** -> **Pointers**, choose
 `Diderich Cursor` from **Scheme**, then click **Apply**. If you want to switch
 immediately, run `Apply-Diderich-Cursors.bat`.
+
+If your Windows cursor scheme list ever looks wrong after testing, double-click
+`Restore-Cursor-Scheme-Backup.bat` to import the latest saved scheme-list
+backup.
 
 ## Uninstall
 
