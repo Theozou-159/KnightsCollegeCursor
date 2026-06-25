@@ -1,6 +1,6 @@
 # Diderich Cursor
 
-Animated Diderich cursor set for Windows, packaged as part of the Night's
+Animated Diderich cursor set for Windows, packaged as part of the Knights
 College Cursor collection.
 
 ![Diderich Cursor preview](preview/diderich-help-thumbnail.gif)

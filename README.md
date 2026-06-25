@@ -1,6 +1,6 @@
-# Night's College Cursor
+# Knights College Cursor
 
-Animated Windows cursor packs for Night's College characters, with one-click
+Animated Windows cursor packs for Knights College characters, with one-click
 install and uninstall scripts.
 
 ## Latest Update
@@ -24,7 +24,7 @@ sheets.
 Download from the GitHub Releases page, then extract the ZIP before installing.
 
 - Latest release:
-  [Night's College Cursor v1.1.0](https://github.com/Theozou-159/TheoCursor/releases/tag/v1.1.0)
+  [Knights College Cursor v1.1.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.0)
 - Diderich Windows ZIP:
   download `DiderichCursor-v1.0.0-Windows.zip` from **Assets**.
 - Theo Windows ZIP:
@@ -114,7 +114,7 @@ artwork/assets as your own.
 
 ## 中文说明
 
-Night's College Cursor 是一套给 Windows 使用的角色动态鼠标指针包，目前包含
+Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包，目前包含
 迪德里奇和西奥两套角色主题。
 
 ### 版本更新
@@ -127,7 +127,7 @@ Night's College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 请从 GitHub Releases 下载角色 ZIP，下载后先解压再安装。
 
 - 最新 Release：
-  [Night's College Cursor v1.1.0](https://github.com/Theozou-159/TheoCursor/releases/tag/v1.1.0)
+  [Knights College Cursor v1.1.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.0)
 - 迪德里奇 Windows ZIP：
   在 **Assets** 里下载 `DiderichCursor-v1.0.0-Windows.zip`。
 - 西奥 Windows ZIP：
