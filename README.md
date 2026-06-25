@@ -47,21 +47,24 @@ The installers copy cursor files to the current user's local app data folder:
 %LOCALAPPDATA%\TheoCursor\Cursors
 ```
 
-The Diderich installer registers its scheme without changing your current cursor
-scheme. To switch, open **Mouse Properties** -> **Pointers**, choose
-`Diderich Cursor`, then click **Apply**. The optional
-`Apply-Diderich-Cursors.bat` switches immediately. It also backs up the Windows
-cursor scheme list before registering Diderich:
+The Diderich and Theo installers register their schemes without changing your
+current cursor scheme. To switch, open **Mouse Properties** -> **Pointers**,
+choose the character scheme, then click **Apply**. The optional apply scripts
+switch immediately:
+
+- Diderich: `Apply-Diderich-Cursors.bat`
+- Theo: `Apply-Theo-Cursors.bat`
+
+Both installers back up the Windows cursor scheme list before registering a
+new scheme:
 
 ```text
 %LOCALAPPDATA%\KnightsCollegeCursor\CursorSchemeBackups
 ```
 
 If a test install ever leaves the Windows scheme list in a bad state, run
-`Restore-Cursor-Scheme-Backup.bat` from the Diderich package to restore the
+`Restore-Cursor-Scheme-Backup.bat` from the character package to restore the
 latest saved scheme list.
-
-The Theo installer follows the original one-click behavior.
 
 ## Included Cursor States
 
@@ -164,20 +167,21 @@ Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 %LOCALAPPDATA%\TheoCursor\Cursors
 ```
 
-迪德里奇安装脚本默认只注册 `Diderich Cursor` 方案，不会改变你当前正在用的鼠标方案，
-所以不会把西奥方案里的当前指针项替换掉。想切换到迪德里奇时，请打开
-**Mouse Properties** -> **Pointers**，在 **Scheme** 里选择 `Diderich Cursor`，
-再点 **Apply**。如果想立刻切换，也可以运行 `Apply-Diderich-Cursors.bat`。脚本会
-在注册迪德里奇前先备份 Windows 的鼠标方案列表：
+迪德里奇和西奥安装脚本默认只注册对应方案，不会改变你当前正在用的鼠标方案。
+想切换时，请打开 **Mouse Properties** -> **Pointers**，在 **Scheme** 里选择对应
+角色方案，再点 **Apply**。如果想立刻切换，也可以运行对应的 Apply 脚本：
+
+- 迪德里奇：`Apply-Diderich-Cursors.bat`
+- 西奥：`Apply-Theo-Cursors.bat`
+
+两个安装脚本都会在注册新方案前先备份 Windows 的鼠标方案列表：
 
 ```text
 %LOCALAPPDATA%\KnightsCollegeCursor\CursorSchemeBackups
 ```
 
-如果测试安装后 Windows 的方案列表异常，可以运行迪德里奇包里的
+如果测试安装后 Windows 的方案列表异常，可以运行对应角色包里的
 `Restore-Cursor-Scheme-Backup.bat`，恢复最近一次保存的方案列表。
-
-西奥安装脚本仍保持原来的一键应用行为。
 
 ### 包含的鼠标状态
 
