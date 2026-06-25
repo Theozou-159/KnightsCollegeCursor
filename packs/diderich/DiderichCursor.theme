@@ -1,0 +1,17 @@
+[Theme]
+DisplayName=Diderich Cursor
+
+[Control Panel\Cursors]
+Arrow=%LocalAppData%\DiderichCursor\Cursors\pointer.ani
+Help=%LocalAppData%\DiderichCursor\Cursors\help.ani
+AppStarting=%LocalAppData%\DiderichCursor\Cursors\work.ani
+Wait=%LocalAppData%\DiderichCursor\Cursors\busy.ani
+Crosshair=%LocalAppData%\DiderichCursor\Cursors\cross.ani
+IBeam=%LocalAppData%\DiderichCursor\Cursors\text.ani
+No=%LocalAppData%\DiderichCursor\Cursors\unavailable.ani
+SizeNS=%LocalAppData%\DiderichCursor\Cursors\vert.ani
+SizeWE=%LocalAppData%\DiderichCursor\Cursors\horz.ani
+SizeNWSE=%LocalAppData%\DiderichCursor\Cursors\dgn1.ani
+SizeNESW=%LocalAppData%\DiderichCursor\Cursors\dgn2.ani
+SizeAll=%LocalAppData%\DiderichCursor\Cursors\move.ani
+Hand=%LocalAppData%\DiderichCursor\Cursors\link.ani

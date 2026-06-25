@@ -1,8 +1,8 @@
 # Asset Notice
 
-Theo and Diderich character artwork, cursor images, animations, and preview
-assets in this repository are fan-made derivative assets based on third-party
-game characters.
+Diderich character artwork, cursor images, animations, and preview assets in
+this package are fan-made derivative assets based on a third-party game
+character.
 
 All rights to the original character and source artwork belong to their
 respective owners. This project is unofficial, non-commercial, and not
