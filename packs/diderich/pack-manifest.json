@@ -268,8 +268,8 @@
       "cur": "cursors/link.cur",
       "preview": "preview/link.gif",
       "hotspot": [
-        43,
-        36
+        39,
+        39
       ],
       "ani_header": {
         "frame_count": 6,
@@ -278,16 +278,16 @@
         "embedded_cursor_count": 6,
         "embedded_hotspots": [
           [
-            43,
-            36
+            39,
+            39
           ],
           [
-            43,
-            36
+            39,
+            39
           ],
           [
-            43,
-            36
+            39,
+            39
           ],
           [
             "..."
@@ -298,15 +298,16 @@
         "width": 256,
         "height": 256,
         "hotspot": [
-          43,
-          36
+          39,
+          39
         ],
-        "bytes": 270376,
+        "bytes": 74404,
         "offset": 22
       },
       "preview_frame_count": 6,
-      "ani_bytes": 1622536,
-      "cur_bytes": 270398
+      "ani_bytes": 440212,
+      "cur_bytes": 74426,
+      "white_alpha_fix": "v3 restored pale foreground pixels and removed green-screen halo for dark Windows themes"
     },
     {
       "role": "unavailable",
