@@ -23,6 +23,9 @@ This MIT license applies only to:
 
 - `Install-Theo-Cursors.bat`
 - `Install-Theo-Cursors.ps1`
+- `Apply-Theo-Cursors.bat`
+- `Restore-Cursor-Scheme-Backup.bat`
+- `Restore-Cursor-Scheme-Backup.ps1`
 - `Uninstall-Theo-Cursors.bat`
 - `Uninstall-Theo-Cursors.ps1`
 

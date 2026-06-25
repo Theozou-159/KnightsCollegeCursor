@@ -2,8 +2,11 @@
   "pack": "Theo Cursor",
   "installer": {
     "primary": "Install-Theo-Cursors.bat",
-    "method": "Current-user install into %LOCALAPPDATA%, registry scheme apply",
-    "fallback": "TheoCursor.inf"
+    "apply": "Apply-Theo-Cursors.bat",
+    "restore": "Restore-Cursor-Scheme-Backup.bat",
+    "method": "Current-user install into %LOCALAPPDATA%, back up the cursor scheme list, then register Theo without changing current cursor by default",
+    "fallback": "TheoCursor.inf",
+    "backup_folder": "%LOCALAPPDATA%\\KnightsCollegeCursor\\CursorSchemeBackups"
   },
   "windows_role_map": {
     "Arrow": "pointer.ani",

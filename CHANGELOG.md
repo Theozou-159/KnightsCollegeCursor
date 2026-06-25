@@ -21,3 +21,7 @@
 ## v1.0.0 - Theo Cursor
 
 - Initial Theo Windows animated cursor pack.
+- Updated the Theo installer to back up and preserve existing custom cursor
+  schemes before adding Theo.
+- Updated the Theo installer to register the scheme without changing the
+  current cursor by default; use `Apply-Theo-Cursors.bat` to switch immediately.
