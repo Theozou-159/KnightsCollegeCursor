@@ -13,6 +13,8 @@
   schemes before adding Diderich, with a helper to restore the latest backup.
 - Fixed the Diderich Link Select cursor so white fur, ear, face, and shirt
   details stay opaque on dark Windows themes.
+- Fixed the Diderich Working in Background, Busy, and Unavailable cursors so
+  white fur, paper, face, and tail details stay opaque on dark Windows themes.
 - Added Diderich preview GIFs, a final contact sheet, 32px review sheet, hotspot
   review sheet, and dark background check.
 - Updated the project landing page to Knights College Cursor while keeping the

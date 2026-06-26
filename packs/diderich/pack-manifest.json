@@ -165,7 +165,70 @@
       },
       "preview_frame_count": 8,
       "ani_bytes": 2163356,
-      "cur_bytes": 270398
+      "cur_bytes": 270398,
+      "white_alpha_fix": {
+        "version": "work-v4-newspaper-paw-whitefixed",
+        "source": "diderich-cursor-image2-v1/actions/work/source/work-v3-newspaper-character-strip.png",
+        "method": "re-cut from original green-screen source strip; only green key/fringe touching transparency made transparent; white foreground pixels preserved; alpha channel controls transparency",
+        "alpha_validation": [
+          {
+            "frame": 1,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 2,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 3,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 4,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 5,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 6,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 7,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 8,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          }
+        ]
+      }
     },
     {
       "role": "busy",
@@ -212,7 +275,70 @@
       },
       "preview_frame_count": 8,
       "ani_bytes": 2163356,
-      "cur_bytes": 270398
+      "cur_bytes": 270398,
+      "white_alpha_fix": {
+        "version": "busy-v3-waiting-paw-whitefixed",
+        "source": "diderich-cursor-image2-v1/actions/busy/source/busy-v2-scene-character-strip.png",
+        "method": "re-cut from original green-screen source strip; only green key/fringe touching transparency made transparent; white foreground pixels preserved; alpha channel controls transparency",
+        "alpha_validation": [
+          {
+            "frame": 1,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 7
+          },
+          {
+            "frame": 2,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 7
+          },
+          {
+            "frame": 3,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 7
+          },
+          {
+            "frame": 4,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 5,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 10
+          },
+          {
+            "frame": 6,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 3
+          },
+          {
+            "frame": 7,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 2
+          },
+          {
+            "frame": 8,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 5
+          }
+        ]
+      }
     },
     {
       "role": "text",
@@ -354,7 +480,63 @@
       },
       "preview_frame_count": 7,
       "ani_bytes": 1892946,
-      "cur_bytes": 270398
+      "cur_bytes": 270398,
+      "white_alpha_fix": {
+        "version": "unavailable-v2-resting-noentry-whitefixed",
+        "source": "diderich-cursor-image2-v1/actions/unavailable/source/unavailable-v1-resting-character-strip.png",
+        "method": "re-cut from original green-screen source strip; only green key/fringe touching transparency made transparent; white foreground pixels preserved; alpha channel controls transparency",
+        "alpha_validation": [
+          {
+            "frame": 1,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 2,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 3,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 4,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 5,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 6,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          },
+          {
+            "frame": 7,
+            "transparent_nonzero_rgb": 0,
+            "whiteish_transparent": 0,
+            "key_green_foreground": 0,
+            "edge_green_foreground": 0
+          }
+        ]
+      }
     },
     {
       "role": "move",
