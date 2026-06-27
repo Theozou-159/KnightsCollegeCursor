@@ -5,9 +5,9 @@ install and uninstall scripts.
 
 ## Latest Update
 
-**v1.1.0 adds the Diderich cursor pack.** It includes 13 animated Windows cursor
-states, a current-user installer, uninstall helper, preview GIFs, and review
-sheets.
+**v1.1.1 adds size-specific Diderich downloads.** Diderich now has clearly
+named Windows ZIPs for 1080p, 2K, the original 4K-sized build, and two larger
+test builds.
 
 ## Preview
 
@@ -24,9 +24,13 @@ sheets.
 Download from the GitHub Releases page, then extract the ZIP before installing.
 
 - Latest release:
-  [Knights College Cursor v1.1.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.0)
-- Diderich Windows ZIP:
-  download `DiderichCursor-v1.0.0-Windows.zip` from **Assets**.
+  [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
+- Diderich Windows ZIPs:
+  - `DiderichCursor-v1.0.0-Windows-1080p.zip` - smallest Diderich build.
+  - `DiderichCursor-v1.0.0-Windows-2K.zip` - medium build for 1440p / 2K screens.
+  - `DiderichCursor-v1.0.0-Windows-4K.zip` - original full-size Diderich build for 4K / high-DPI screens.
+  - `DiderichCursor-v1.0.0-Windows-Large105.zip` - slightly larger than the original.
+  - `DiderichCursor-v1.0.0-Windows-XL110.zip` - largest Diderich test build.
 - Theo Windows ZIP:
   download `TheoCursor-v1.0.0-Windows.zip` from **Assets**.
 
@@ -44,13 +48,23 @@ The installers copy cursor files to the current user's local app data folder:
 
 ```text
 %LOCALAPPDATA%\DiderichCursor\Cursors
+%LOCALAPPDATA%\DiderichCursor2K\Cursors
+%LOCALAPPDATA%\DiderichCursor1080p\Cursors
+%LOCALAPPDATA%\DiderichCursorLarge\Cursors
+%LOCALAPPDATA%\DiderichCursorXL\Cursors
 %LOCALAPPDATA%\TheoCursor\Cursors
 ```
 
-The Diderich and Theo installers register their schemes without changing your
-current cursor scheme. To switch, open **Mouse Properties** -> **Pointers**,
-choose the character scheme, then click **Apply**. The optional apply scripts
-switch immediately:
+The Diderich size variants, Diderich original build, and Theo installer register
+their schemes without changing your current cursor scheme. To switch, open
+**Mouse Properties** -> **Pointers**, choose the character scheme, then click
+**Apply**. The optional apply scripts switch immediately:
+
+- Diderich original / 4K: `Diderich Cursor`
+- Diderich 2K: `Diderich Cursor 2K`
+- Diderich 1080p: `Diderich Cursor 1080p`
+- Diderich Large105: `Diderich Cursor Large`
+- Diderich XL110: `Diderich Cursor XL`
 
 - Diderich: `Apply-Diderich-Cursors.bat`
 - Theo: `Apply-Theo-Cursors.bat`
@@ -136,17 +150,21 @@ Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 
 ### 版本更新
 
-**v1.1.0 新增迪德里奇鼠标指针包。** 这套包含 13 个动态 Windows 鼠标状态、
-一键安装脚本、卸载脚本、预览 GIF 和检查图。
+**v1.1.1 新增多个带明确后缀的迪德里奇尺寸包。** 现在可以按 1080p、2K、
+原始 4K 尺寸，以及两个更大的测试尺寸来下载。
 
 ### 下载
 
 请从 GitHub Releases 下载角色 ZIP，下载后先解压再安装。
 
 - 最新 Release：
-  [Knights College Cursor v1.1.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.0)
+  [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
 - 迪德里奇 Windows ZIP：
-  在 **Assets** 里下载 `DiderichCursor-v1.0.0-Windows.zip`。
+  - `DiderichCursor-v1.0.0-Windows-1080p.zip` - 最小尺寸。
+  - `DiderichCursor-v1.0.0-Windows-2K.zip` - 适合 1440p / 2K 屏的中等尺寸。
+  - `DiderichCursor-v1.0.0-Windows-4K.zip` - 原始 4K / 高 DPI 尺寸。
+  - `DiderichCursor-v1.0.0-Windows-Large105.zip` - 比原始尺寸稍大一点。
+  - `DiderichCursor-v1.0.0-Windows-XL110.zip` - 最大测试尺寸。
 - 西奥 Windows ZIP：
   在 **Assets** 里下载 `TheoCursor-v1.0.0-Windows.zip`。
 
@@ -164,12 +182,24 @@ Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 
 ```text
 %LOCALAPPDATA%\DiderichCursor\Cursors
+%LOCALAPPDATA%\DiderichCursor2K\Cursors
+%LOCALAPPDATA%\DiderichCursor1080p\Cursors
+%LOCALAPPDATA%\DiderichCursorLarge\Cursors
+%LOCALAPPDATA%\DiderichCursorXL\Cursors
 %LOCALAPPDATA%\TheoCursor\Cursors
 ```
 
-迪德里奇和西奥安装脚本默认只注册对应方案，不会改变你当前正在用的鼠标方案。
-想切换时，请打开 **Mouse Properties** -> **Pointers**，在 **Scheme** 里选择对应
-角色方案，再点 **Apply**。如果想立刻切换，也可以运行对应的 Apply 脚本：
+迪德里奇各尺寸包和西奥安装脚本默认只注册对应方案，不会改变你当前正在用的鼠标
+方案。想切换时，请打开 **Mouse Properties** -> **Pointers**，在 **Scheme** 里
+选择对应角色方案，再点 **Apply**。迪德里奇各尺寸的方案名如下：
+
+- 原始 / 4K：`Diderich Cursor`
+- 2K：`Diderich Cursor 2K`
+- 1080p：`Diderich Cursor 1080p`
+- Large105：`Diderich Cursor Large`
+- XL110：`Diderich Cursor XL`
+
+如果想立刻切换，也可以运行对应的 Apply 脚本：
 
 - 迪德里奇：`Apply-Diderich-Cursors.bat`
 - 西奥：`Apply-Theo-Cursors.bat`
