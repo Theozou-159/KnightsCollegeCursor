@@ -1,5 +1,7 @@
 # Asset Notice
 
+Created and packaged by @Neilzou1.
+
 Theo and Diderich character artwork, cursor images, animations, and preview
 assets in this repository are fan-made derivative assets based on third-party
 game characters.

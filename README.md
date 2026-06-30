@@ -3,6 +3,8 @@
 Animated Windows cursor packs for Knights College characters, with one-click
 install and uninstall scripts.
 
+Created and packaged by **@Neilzou1**.
+
 ## Latest Update
 
 **v1.1.1 adds size-specific Diderich downloads.** Diderich now has clearly
@@ -26,13 +28,13 @@ Download from the GitHub Releases page, then extract the ZIP before installing.
 - Latest release:
   [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
 - Diderich Windows ZIPs:
-  - `DiderichCursor-v1.0.0-Windows-1080p.zip` - smallest Diderich build.
-  - `DiderichCursor-v1.0.0-Windows-2K.zip` - medium build for 1440p / 2K screens.
-  - `DiderichCursor-v1.0.0-Windows-4K.zip` - original full-size Diderich build for 4K / high-DPI screens.
-  - `DiderichCursor-v1.0.0-Windows-Large105.zip` - slightly larger than the original.
-  - `DiderichCursor-v1.0.0-Windows-XL110.zip` - largest Diderich test build.
+  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip` - smallest Diderich build.
+  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip` - medium build for 1440p / 2K screens.
+  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip` - original full-size Diderich build for 4K / high-DPI screens.
+  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip` - slightly larger than the original.
+  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip` - largest Diderich test build.
 - Theo Windows ZIP:
-  download `TheoCursor-v1.0.0-Windows.zip` from **Assets**.
+  download `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip` from **Assets**.
 
 ## Install
 
@@ -148,6 +150,8 @@ artwork/assets as your own.
 Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包，目前包含
 迪德里奇和西奥两套角色主题。
 
+制作与打包：**@Neilzou1**。
+
 ### 版本更新
 
 **v1.1.1 新增多个带明确后缀的迪德里奇尺寸包。** 现在可以按 1080p、2K、
@@ -160,13 +164,13 @@ Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 - 最新 Release：
   [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
 - 迪德里奇 Windows ZIP：
-  - `DiderichCursor-v1.0.0-Windows-1080p.zip` - 最小尺寸。
-  - `DiderichCursor-v1.0.0-Windows-2K.zip` - 适合 1440p / 2K 屏的中等尺寸。
-  - `DiderichCursor-v1.0.0-Windows-4K.zip` - 原始 4K / 高 DPI 尺寸。
-  - `DiderichCursor-v1.0.0-Windows-Large105.zip` - 比原始尺寸稍大一点。
-  - `DiderichCursor-v1.0.0-Windows-XL110.zip` - 最大测试尺寸。
+  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip` - 最小尺寸。
+  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip` - 适合 1440p / 2K 屏的中等尺寸。
+  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip` - 原始 4K / 高 DPI 尺寸。
+  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip` - 比原始尺寸稍大一点。
+  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip` - 最大测试尺寸。
 - 西奥 Windows ZIP：
-  在 **Assets** 里下载 `TheoCursor-v1.0.0-Windows.zip`。
+  在 **Assets** 里下载 `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip`。
 
 ### 安装
 
