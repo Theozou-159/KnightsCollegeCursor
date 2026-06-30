@@ -1,5 +1,7 @@
 # Asset Notice
 
+Created and packaged by @Neilzou1.
+
 Diderich character artwork, cursor images, animations, and preview assets in
 this package are fan-made derivative assets based on a third-party game
 character.

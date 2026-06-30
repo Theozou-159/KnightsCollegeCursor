@@ -3,6 +3,8 @@
 Animated Diderich cursor set for Windows, packaged as part of the Knights
 College Cursor collection.
 
+Created and packaged by **@Neilzou1**.
+
 ![Diderich Cursor preview](preview/diderich-help-thumbnail.gif)
 
 ## Install
