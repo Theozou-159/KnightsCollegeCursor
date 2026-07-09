@@ -1,78 +1,88 @@
 # Knights College Cursor
 
-Animated Windows cursor packs for Knights College characters, with one-click
-install and uninstall scripts.
+Animated Windows cursor packs for Knights College characters.
 
 Created and packaged by **@Neilzou1**.
 
 ## Latest Update
 
-**v1.1.1 adds size-specific Diderich downloads.** Diderich now has clearly
-named Windows ZIPs for 1080p, 2K, the original 4K-sized build, and two larger
-test builds.
+**v1.2.0 brings Paul and Celio to your desktop.**  
+Paul and Celio now have Windows animated cursor packs, each bundled as one
+all-sizes download with `Default`, `1080p`, `2K`, `4K`, `Large105`, and `XL110`
+folders inside.
 
-## Preview
+## Pointer Preview
 
-### Diderich Cursor
-
-![Diderich Cursor preview](packs/diderich/preview/diderich-help-thumbnail.gif)
-
-### Theo Cursor
-
-![Theo Cursor pointer preview](preview/pointer.gif)
+| Diderich | Theo | Paul | Celio |
+| --- | --- | --- | --- |
+| ![Diderich pointer preview](packs/diderich/preview/pointer.gif) | ![Theo pointer preview](preview/pointer.gif) | ![Paul pointer preview](packs/paul/preview/pointer.gif) | ![Celio pointer preview](packs/celio/preview/pointer.gif) |
 
 ## Download
 
 Download from the GitHub Releases page, then extract the ZIP before installing.
 
 - Latest release:
+  [Knights College Cursor v1.2.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.2.0)
+- New in v1.2.0:
+  - `PaulCursor-v1.0.0-Windows-All-Sizes-by-Neilzou1.zip`
+  - `CelioCursor-v0.1.0-Windows-All-Sizes-by-Neilzou1.zip`
+- Existing Diderich downloads:
   [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
-- Diderich Windows ZIPs:
-  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip` - smallest Diderich build.
-  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip` - medium build for 1440p / 2K screens.
-  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip` - original full-size Diderich build for 4K / high-DPI screens.
-  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip` - slightly larger than the original.
-  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip` - largest Diderich test build.
-- Theo Windows ZIP:
-  download `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip` from **Assets**.
+  includes:
+  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip`
+- Existing Theo download:
+  - `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip`
+
+## Size Guide
+
+Paul and Celio all-size ZIPs contain these folders:
+
+- `Default`: the standard pack.
+- `1080p`: smaller, for FHD screens.
+- `2K`: medium-small, for QHD screens.
+- `4K`: approved baseline scale, labeled for high-DPI screens.
+- `Large105`: slightly larger than the baseline.
+- `XL110`: largest test size with fit protection.
+
+Each size uses its own Windows cursor scheme and install folder, so several
+sizes can be installed and tested side by side.
 
 ## Install
 
 1. Download the character ZIP from Releases.
 2. Extract the ZIP.
-3. Double-click the install `.bat` file:
+3. For Paul or Celio, open the size folder you want.
+4. Double-click the install `.bat` file:
    - Diderich: `Install-Diderich-Cursors.bat`
    - Theo: `Install-Theo-Cursors.bat`
-4. If Windows Defender SmartScreen appears, choose **More info** -> **Run
+   - Paul: `Install-Paul-Cursors.bat`
+   - Celio: `Install-Celio-Cursors.bat`
+5. If Windows Defender SmartScreen appears, choose **More info** -> **Run
    anyway** only if you trust this package.
 
-The installers copy cursor files to the current user's local app data folder:
+The installers register their schemes without changing your current cursor by
+default. To switch later, open **Mouse Properties** -> **Pointers**, choose the
+character scheme, then click **Apply**. The optional `Apply-*-Cursors.bat`
+scripts install and switch immediately.
+
+The installers copy cursor files to the current user's local app data folder,
+for example:
 
 ```text
 %LOCALAPPDATA%\DiderichCursor\Cursors
-%LOCALAPPDATA%\DiderichCursor2K\Cursors
-%LOCALAPPDATA%\DiderichCursor1080p\Cursors
-%LOCALAPPDATA%\DiderichCursorLarge\Cursors
-%LOCALAPPDATA%\DiderichCursorXL\Cursors
 %LOCALAPPDATA%\TheoCursor\Cursors
+%LOCALAPPDATA%\PaulCursor\Cursors
+%LOCALAPPDATA%\PaulCursor2K\Cursors
+%LOCALAPPDATA%\CelioCursor\Cursors
+%LOCALAPPDATA%\CelioCursor2K\Cursors
 ```
 
-The Diderich size variants, Diderich original build, and Theo installer register
-their schemes without changing your current cursor scheme. To switch, open
-**Mouse Properties** -> **Pointers**, choose the character scheme, then click
-**Apply**. The optional apply scripts switch immediately:
-
-- Diderich original / 4K: `Diderich Cursor`
-- Diderich 2K: `Diderich Cursor 2K`
-- Diderich 1080p: `Diderich Cursor 1080p`
-- Diderich Large105: `Diderich Cursor Large`
-- Diderich XL110: `Diderich Cursor XL`
-
-- Diderich: `Apply-Diderich-Cursors.bat`
-- Theo: `Apply-Theo-Cursors.bat`
-
-Both installers back up the Windows cursor scheme list before registering a
-new scheme:
+All installers back up the Windows cursor scheme list before registering a new
+scheme:
 
 ```text
 %LOCALAPPDATA%\KnightsCollegeCursor\CursorSchemeBackups
@@ -121,8 +131,6 @@ Theo:
 If the one-click script does not work:
 
 1. Right-click the `.inf` file.
-   - Diderich: `DiderichCursor.inf`
-   - Theo: `TheoCursor.inf`
 2. Choose **Install**.
 3. Open **Mouse Properties** -> **Pointers**.
 4. Choose the matching cursor scheme.
@@ -148,67 +156,73 @@ artwork/assets as your own.
 ## 中文说明
 
 Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包，目前包含
-迪德里奇和西奥两套角色主题。
+迪德里奇、西奥、保罗和西里奥四套角色主题。
 
 制作与打包：**@Neilzou1**。
 
-### 版本更新
+### 最新更新
 
-**v1.1.1 新增多个带明确后缀的迪德里奇尺寸包。** 现在可以按 1080p、2K、
-原始 4K 尺寸，以及两个更大的测试尺寸来下载。
+**v1.2.0 新增保罗和西里奥鼠标包。**  
+这次保罗和西里奥各自做成一个 All Sizes ZIP，解压后里面直接有 `Default`、
+`1080p`、`2K`、`4K`、`Large105` 和 `XL110` 几个尺寸文件夹。
+
+### 指针预览
+
+| 迪德里奇 | 西奥 | Paul | 西里奥 |
+| --- | --- | --- | --- |
+| ![Diderich pointer preview](packs/diderich/preview/pointer.gif) | ![Theo pointer preview](preview/pointer.gif) | ![Paul pointer preview](packs/paul/preview/pointer.gif) | ![Celio pointer preview](packs/celio/preview/pointer.gif) |
 
 ### 下载
 
 请从 GitHub Releases 下载角色 ZIP，下载后先解压再安装。
 
 - 最新 Release：
+  [Knights College Cursor v1.2.0](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.2.0)
+- v1.2.0 新增：
+  - `PaulCursor-v1.0.0-Windows-All-Sizes-by-Neilzou1.zip`
+  - `CelioCursor-v0.1.0-Windows-All-Sizes-by-Neilzou1.zip`
+- 已有迪德里奇下载：
   [Knights College Cursor v1.1.1](https://github.com/Theozou-159/KnightsCollegeCursor/releases/tag/v1.1.1)
-- 迪德里奇 Windows ZIP：
-  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip` - 最小尺寸。
-  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip` - 适合 1440p / 2K 屏的中等尺寸。
-  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip` - 原始 4K / 高 DPI 尺寸。
-  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip` - 比原始尺寸稍大一点。
-  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip` - 最大测试尺寸。
-- 西奥 Windows ZIP：
-  在 **Assets** 里下载 `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip`。
+  里包含：
+  - `DiderichCursor-v1.0.0-Windows-1080p-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-2K-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-4K-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-Large105-by-Neilzou1.zip`
+  - `DiderichCursor-v1.0.0-Windows-XL110-by-Neilzou1.zip`
+- 已有西奥下载：
+  - `TheoCursor-v1.0.0-Windows-by-Neilzou1.zip`
+
+### 尺寸说明
+
+保罗和西里奥的 All Sizes ZIP 里包含这些文件夹：
+
+- `Default`：标准尺寸。
+- `1080p`：偏小，适合 FHD 屏幕。
+- `2K`：中小尺寸，适合 QHD 屏幕。
+- `4K`：基准尺寸，适合高 DPI 屏幕。
+- `Large105`：比基准尺寸稍大。
+- `XL110`：最大的测试尺寸，带防裁切处理。
+
+每个尺寸都有独立 Windows 鼠标方案名和安装目录，可以同时安装，方便并排试。
 
 ### 安装
 
 1. 从 Releases 下载角色 ZIP。
 2. 解压 ZIP。
-3. 双击安装 `.bat`：
+3. 如果是保罗或西里奥，先打开你想用的尺寸文件夹。
+4. 双击安装 `.bat`：
    - 迪德里奇：`Install-Diderich-Cursors.bat`
    - 西奥：`Install-Theo-Cursors.bat`
-4. 如果 Windows Defender SmartScreen 弹出提示，请只在你信任这个包的情况下选择
+   - 保罗：`Install-Paul-Cursors.bat`
+   - 西里奥：`Install-Celio-Cursors.bat`
+5. 如果 Windows Defender SmartScreen 弹出提示，请只在你信任这个包的情况下选择
    **More info** -> **Run anyway**。
 
-安装脚本会把鼠标文件复制到当前用户的本地目录：
+安装脚本默认只注册鼠标方案，不会立刻改掉你当前正在用的鼠标。想切换时，请打开
+**Mouse Properties** -> **Pointers**，在 **Scheme** 里选择对应角色方案，再点
+**Apply**。如果想立刻切换，也可以运行 `Apply-*-Cursors.bat`。
 
-```text
-%LOCALAPPDATA%\DiderichCursor\Cursors
-%LOCALAPPDATA%\DiderichCursor2K\Cursors
-%LOCALAPPDATA%\DiderichCursor1080p\Cursors
-%LOCALAPPDATA%\DiderichCursorLarge\Cursors
-%LOCALAPPDATA%\DiderichCursorXL\Cursors
-%LOCALAPPDATA%\TheoCursor\Cursors
-```
-
-迪德里奇各尺寸包和西奥安装脚本默认只注册对应方案，不会改变你当前正在用的鼠标
-方案。想切换时，请打开 **Mouse Properties** -> **Pointers**，在 **Scheme** 里
-选择对应角色方案，再点 **Apply**。迪德里奇各尺寸的方案名如下：
-
-- 原始 / 4K：`Diderich Cursor`
-- 2K：`Diderich Cursor 2K`
-- 1080p：`Diderich Cursor 1080p`
-- Large105：`Diderich Cursor Large`
-- XL110：`Diderich Cursor XL`
-
-如果想立刻切换，也可以运行对应的 Apply 脚本：
-
-- 迪德里奇：`Apply-Diderich-Cursors.bat`
-- 西奥：`Apply-Theo-Cursors.bat`
-
-两个安装脚本都会在注册新方案前先备份 Windows 的鼠标方案列表：
+安装脚本会在注册新方案前先备份 Windows 的鼠标方案列表：
 
 ```text
 %LOCALAPPDATA%\KnightsCollegeCursor\CursorSchemeBackups
@@ -240,8 +254,6 @@ Knights College Cursor 是一套给 Windows 使用的角色动态鼠标指针包
 如果一键安装脚本无法运行：
 
 1. 右键点击 `.inf` 文件。
-   - 迪德里奇：`DiderichCursor.inf`
-   - 西奥：`TheoCursor.inf`
 2. 选择 **Install**。
 3. 打开 **Mouse Properties** -> **Pointers**。
 4. 选择对应的鼠标方案。

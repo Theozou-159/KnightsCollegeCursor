@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.2.0 - Paul And Celio Cursor Packs
+
+- Added the Paul Windows animated cursor pack.
+- Added the Celio Windows animated cursor pack.
+- Packaged Paul and Celio as two all-sizes downloads:
+  - `PaulCursor-v1.0.0-Windows-All-Sizes-by-Neilzou1.zip`
+  - `CelioCursor-v0.1.0-Windows-All-Sizes-by-Neilzou1.zip`
+- Each all-sizes ZIP contains `Default`, `1080p`, `2K`, `4K`, `Large105`, and
+  `XL110` folders as complete installable cursor packs.
+- Added Paul and Celio Pointer preview GIFs to the project landing page, next
+  to the existing Diderich and Theo previews.
+- Kept each Paul and Celio size variant as a separate Windows cursor scheme and
+  install folder so sizes can be tested side by side.
+- Verified the new release ZIPs with `unzip -t`.
+
 ## v1.1.1 - Diderich Size Variants
 
 - Added size-specific Diderich Windows ZIPs with clear suffixes:
